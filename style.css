@@ -50,3 +50,24 @@ iframe#tela{
     height: 470px;
 
 }
+
+  section#redes img {
+ 
+    width: 60px;
+    margin: 10px;
+    border-radius: 40%;
+    box-shadow: 10px 10px 5px black;
+    box-sizing: border-box; 
+    /* borda passa a fazer parte da caisa evitando de outros botoes se mecham  */
+}
+
+section#redes{
+    text-align: right;
+}
+
+section#redes img:hover{
+     border: 2px solid rgba(255, 255, 255, 0.627);
+     transform: translate(-3px,-3px);
+     box-shadow: 5px 5px 10px black;
+     transition: transform 0.3s ;
+}
